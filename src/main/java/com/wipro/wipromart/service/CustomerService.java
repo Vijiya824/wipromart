@@ -15,8 +15,7 @@ public interface CustomerService {
 	
 	List<CustomerDto> getAllCustomers();
 	
-	Customer updateCustomer(Customer customer);
+	CustomerDto updateCustomer(CustomerDto customerDto);
 	
-	void deleteCustomer(long customerId);
 
 }

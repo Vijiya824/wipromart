@@ -107,14 +107,10 @@ public class CustomerServiceImpl implements CustomerService {
 		
 	}
 
-	@Override
-	public void deleteCustomer(long customerId) {
-		// TODO Auto-generated method stub
-		
-	}
+	
 
 	@Override
-	public Customer updateCustomer(Customer customer) {
+	public CustomerDto updateCustomer(CustomerDto customerDto) {
 		// TODO Auto-generated method stub
 		return null;
 	}
